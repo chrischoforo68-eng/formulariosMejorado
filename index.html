@@ -1,0 +1,365 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Brisa del Pacífico | Lujo frente al mar</title>
+  <meta name="description" content="Disfruta de una experiencia única en Hotel Brisa del Pacífico. Habitaciones de lujo, spa, restaurante gourmet y vistas al océano.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">✦</span>
+        Brisa del Pacífico
+      </a>
+
+      <nav class="nav navbar nav-menu" id="nav-menu" aria-label="Navegación principal">
+        <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+
+        <li class="nav-item dropdown-item">
+          <a href="#servicios" class="nav-link dropdown-btn" aria-expanded="false">
+            Servicios <span class="arrow">▾</span>
+          </a>
+          <ul class="submenu">
+            <li><a href="#servicios" class="submenu-link">Piscina Infinity</a></li>
+            <li><a href="#servicios" class="submenu-link">Spa & Wellness</a></li>
+            <li><a href="#servicios" class="submenu-link">Restaurante Gourmet</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a href="#habitaciones" class="nav-link">Habitaciones</a></li>
+
+        <li class="nav-item dropdown-item">
+          <a href="#" class="nav-link dropdown-btn" aria-expanded="false">
+            Proyectos <span class="arrow">▾</span>
+          </a>
+          <ul class="submenu">
+            <li class="dropdown-subitem">
+              <a href="#" class="submenu-link dropdown-subbtn" aria-expanded="false">
+                Desarrollo Web <span class="arrow-right">▸</span>
+              </a>
+              <ul class="sub-submenu">
+                <li><a href="#inicio" class="submenu-link">Front-End (React / HTML)</a></li>
+                <li><a href="#inicio" class="submenu-link">Back-End (PHP / Node)</a></li>
+              </ul>
+            </li>
+            <li><a href="#habitaciones" class="submenu-link">Juegos Móviles</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+        <li class="nav-item"><a href="#reservar" class="btn btn-primary btn-nav">Reservar</a></li>
+      </nav>
+
+      <button type="button" class="menu-toggle" id="menu-toggle"
+              aria-label="Abrir menú" aria-expanded="false"
+              aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow">Bienvenido al paraíso</p>
+      <h1 class="hero-title">Hotel Brisa del Pacífico</h1>
+      <p class="hero-subtitle">Lujo, confort y vistas inolvidables frente al océano. Una experiencia diseñada para quienes buscan lo extraordinario.</p>
+      <div class="hero-actions">
+        <a href="#habitaciones" class="btn btn-primary">Ver habitaciones</a>
+        <a href="#reservar" class="btn btn-outline">Reservar ahora</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section class="section services" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Experiencias exclusivas</p>
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <p class="section-desc">Todo lo que necesitas para una estancia perfecta, sin preocupaciones.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">🏊</div>
+          <h3>Piscina Infinity</h3>
+          <p>Piscina de borde infinito con vistas panorámicas al océano y servicio de cócteles.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🧖</div>
+          <h3>Spa & Wellness</h3>
+          <p>Tratamientos relajantes, masajes, sauna y zona de hidromasaje con productos naturales.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🍽️</div>
+          <h3>Restaurante Gourmet</h3>
+          <p>Cocina de autor con ingredientes locales y menú degustación frente al atardecer.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🏋️</div>
+          <h3>Gimnasio 24h</h3>
+          <p>Equipamiento de última generación y clases privadas de yoga y pilates.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">📶</div>
+          <h3>WiFi de alta velocidad</h3>
+          <p>Conexión gratuita en todas las áreas del hotel, ideal para trabajo o streaming.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🚗</div>
+          <h3>Traslado y parking</h3>
+          <p>Servicio de traslado al aeropuerto y estacionamiento privado gratuito para huéspedes.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habitaciones -->
+  <section class="section rooms" id="habitaciones">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Descanso de lujo</p>
+        <h2 class="section-title">Nuestras Habitaciones</h2>
+        <p class="section-desc">Espacios elegantes diseñados para tu máximo confort, con vistas privilegiadas.</p>
+      </div>
+
+      <div class="rooms-grid">
+        <!-- Habitación 1 -->
+        <article class="room-card">
+          <div class="room-image room-image-1">
+            <span class="room-badge">Más popular</span>
+          </div>
+          <div class="room-body">
+            <div class="room-header">
+              <h3>Habitación Deluxe</h3>
+              <p class="room-price">desde <strong>$189</strong> / noche</p>
+            </div>
+            <p class="room-desc">Amplia habitación con terraza privada, cama king size y baño de mármol con ducha de lluvia.</p>
+            <ul class="room-amenities">
+              <li>Vista al mar</li>
+              <li>45 m²</li>
+              <li>Minibar</li>
+              <li>Smart TV 55"</li>
+            </ul>
+            <a href="#reservar" class="btn btn-primary btn-full">Reservar</a>
+          </div>
+        </article>
+
+        <!-- Habitación 2 -->
+        <article class="room-card">
+          <div class="room-image room-image-2"></div>
+          <div class="room-body">
+            <div class="room-header">
+              <h3>Suite Junior</h3>
+              <p class="room-price">desde <strong>$249</strong> / noche</p>
+            </div>
+            <p class="room-desc">Espacio sofisticado con sala de estar separada, jacuzzi privado y balcón panorámico.</p>
+            <ul class="room-amenities">
+              <li>Vista panorámica</li>
+              <li>65 m²</li>
+              <li>Jacuzzi</li>
+              <li>Desayuno incluido</li>
+            </ul>
+            <a href="#reservar" class="btn btn-primary btn-full">Reservar</a>
+          </div>
+        </article>
+
+        <!-- Habitación 3 -->
+        <article class="room-card">
+          <div class="room-image room-image-3">
+            <span class="room-badge room-badge-gold">Premium</span>
+          </div>
+          <div class="room-body">
+            <div class="room-header">
+              <h3>Suite Presidencial</h3>
+              <p class="room-price">desde <strong>$459</strong> / noche</p>
+            </div>
+            <p class="room-desc">La máxima expresión de lujo: dos dormitorios, terraza privada con piscina y servicio de mayordomo.</p>
+            <ul class="room-amenities">
+              <li>Piscina privada</li>
+              <li>120 m²</li>
+              <li>Mayordomo 24h</li>
+              <li>Bar privado</li>
+            </ul>
+            <a href="#reservar" class="btn btn-primary btn-full">Reservar</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Reservar -->
+  <section class="section cta" id="reservar">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-content">
+          <h2>¿Listo para tu próxima escapada?</h2>
+          <p>Reserva ahora y obtén un 15% de descuento en tu primera estancia. Oferta válida por tiempo limitado.</p>
+          <form class="booking-form" id="booking-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="checkin">Llegada</label>
+                <input type="date" id="checkin" name="checkin" required>
+              </div>
+              <div class="form-group">
+                <label for="checkout">Salida</label>
+                <input type="date" id="checkout" name="checkout" required>
+              </div>
+              <div class="form-group">
+                <label for="guests">Huéspedes</label>
+                <select id="guests" name="guests">
+                  <option value="1">1 adulto</option>
+                  <option value="2" selected>2 adultos</option>
+                  <option value="3">3 adultos</option>
+                  <option value="4">4 adultos</option>
+                </select>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Consultar disponibilidad</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto / Footer -->
+  <footer class="footer" id="contacto">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-icon">✦</span>
+            Brisa del Pacífico
+          </a>
+          <p>Un refugio de lujo frente al océano, donde cada detalle está pensado para crear recuerdos inolvidables.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Explorar</h4>
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#habitaciones">Habitaciones</a>
+          <a href="#reservar">Reservar</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <p>📍 Avenida Costera 128, Playa Serena</p>
+          <p>📞 +52 55 1234 5678</p>
+          <p>✉️ reservas@brisadelpacifico.com</p>
+        </div>
+
+        <div class="footer-hours">
+          <h4>Horario de recepción</h4>
+          <p>Lunes a Domingo<br>24 horas</p>
+          <p class="footer-note">Check-in: 15:00 · Check-out: 12:00</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Hotel Brisa del Pacífico. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+    /* Estado de los submenús al abrirlos con clic */
+    .navbar .submenu.open,
+    .navbar .sub-submenu.open {
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .submenu,
+      .navbar .sub-submenu {
+        position: static;
+        margin-left: 12px;
+      }
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.getElementById("menu-toggle");
+      const navMenu = document.getElementById("nav-menu");
+
+      if (!menuToggle || !navMenu) return;
+
+      function cerrarMenu() {
+        navMenu.classList.remove("active");
+        menuToggle.classList.remove("active");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Abrir menú");
+
+        navMenu.querySelectorAll(".submenu, .sub-submenu").forEach(function (submenu) {
+          submenu.classList.remove("open");
+        });
+
+        navMenu.querySelectorAll(".dropdown-btn, .dropdown-subbtn").forEach(function (button) {
+          button.setAttribute("aria-expanded", "false");
+        });
+      }
+
+      menuToggle.addEventListener("click", function () {
+        const abierto = navMenu.classList.toggle("active");
+        menuToggle.classList.toggle("active", abierto);
+        menuToggle.setAttribute("aria-expanded", String(abierto));
+        menuToggle.setAttribute("aria-label", abierto ? "Cerrar menú" : "Abrir menú");
+
+        if (!abierto) cerrarMenu();
+      });
+
+      navMenu.querySelectorAll(".dropdown-btn, .dropdown-subbtn").forEach(function (button) {
+        button.addEventListener("click", function (event) {
+          event.preventDefault();
+
+          const submenu = button.nextElementSibling;
+          if (!submenu) return;
+
+          const abrir = !submenu.classList.contains("open");
+
+          if (button.classList.contains("dropdown-btn")) {
+            const padre = button.closest(".nav-item");
+            padre.querySelectorAll(":scope > .submenu").forEach(function (otro) {
+              if (otro !== submenu) otro.classList.remove("open");
+            });
+          }
+
+          submenu.classList.toggle("open", abrir);
+          button.setAttribute("aria-expanded", String(abrir));
+        });
+      });
+
+      navMenu.querySelectorAll('a:not(.dropdown-btn):not(.dropdown-subbtn)').forEach(function (link) {
+        link.addEventListener("click", function () {
+          if (window.innerWidth <= 768) cerrarMenu();
+        });
+      });
+
+      document.addEventListener("click", function (event) {
+        if (!event.target.closest(".header-inner")) cerrarMenu();
+      });
+
+      window.addEventListener("resize", function () {
+        if (window.innerWidth > 768) cerrarMenu();
+      });
+    });
+  </script>
+</body>
+</html>
